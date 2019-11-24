@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Retry]">
+  <test name="TestNG Retry(failed)">
+    <classes>
+      <class name="TestNGRetryer.TestFail">
+        <methods>
+          <include name="fail"/>
+        </methods>
+      </class> <!-- TestNGRetryer.TestFail -->
+    </classes>
+  </test> <!-- TestNG Retry(failed) -->
+</suite> <!-- Failed suite [TestNG Retry] -->

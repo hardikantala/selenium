@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RetryAnalyzer Retry" verbose="1">
+<listeners>
+<listener class-name="TestNGRetryer.AnnotationTransformer"></listener>
+</listeners>
+
+	<test name="RetryAnalyzer Retry">
+		<classes>
+			<class name="TestNGRetryer.TestrRetry" />
+			</classes>
+	</test>
+</suite>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel Execution" duration-ms="20292" started-at="2019-05-15T06:43:13Z" finished-at="2019-05-15T06:43:33Z">
+    <groups>
+    </groups>
+    <test name="Parallel Execution" duration-ms="14476" started-at="2019-05-15T06:43:13Z" finished-at="2019-05-15T06:43:28Z">
+      <class name="TestNGP.ParallelExecution">
+        <test-method status="PASS" signature="getTitle(java.lang.String)[pri:0, instance:TestNGP.ParallelExecution@18be83e4]" name="getTitle" duration-ms="14435" started-at="2019-05-15T12:13:13Z" finished-at="2019-05-15T12:13:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+      </class> <!-- TestNGP.ParallelExecution -->
+    </test> <!-- Parallel Execution -->
+    <test name="Parallel Execution3" duration-ms="15655" started-at="2019-05-15T06:43:13Z" finished-at="2019-05-15T06:43:29Z">
+      <class name="TestNGP.ParallelExecution">
+        <test-method status="PASS" signature="getTitle(java.lang.String)[pri:0, instance:TestNGP.ParallelExecution@5e3a8624]" name="getTitle" duration-ms="15620" started-at="2019-05-15T12:13:13Z" finished-at="2019-05-15T12:13:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+      </class> <!-- TestNGP.ParallelExecution -->
+    </test> <!-- Parallel Execution3 -->
+    <test name="Parallel Execution2" duration-ms="20292" started-at="2019-05-15T06:43:13Z" finished-at="2019-05-15T06:43:33Z">
+      <class name="TestNGP.ParallelExecution">
+        <test-method status="PASS" signature="getTitle(java.lang.String)[pri:0, instance:TestNGP.ParallelExecution@3e6fa38a]" name="getTitle" duration-ms="20258" started-at="2019-05-15T12:13:13Z" finished-at="2019-05-15T12:13:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+      </class> <!-- TestNGP.ParallelExecution -->
+    </test> <!-- Parallel Execution2 -->
+  </suite> <!-- Parallel Execution -->
+</testng-results>

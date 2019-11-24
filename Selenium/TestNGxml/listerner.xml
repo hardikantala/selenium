@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Listernal Example" verbose="1">
+	<listeners>
+		<listener class-name="testNGListerners.TestNGITestListener">
+		</listener>
+	</listeners>
+
+	<test name="Listerner Testing">
+		<classes>
+			<class name="testNGListerners.ListernerLogs" />
+		</classes>
+	</test>
+</suite>
